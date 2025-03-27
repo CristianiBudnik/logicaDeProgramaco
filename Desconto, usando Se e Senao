@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Desconto em compras (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 21/03/2025
+Var
+// Seção de Declarações das variáveis 
+caixa1, caixa2, caixa3 : real
+precoPromocional : real
+opcao : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+caixa1 <- 25.00
+caixa2 <- 50.00
+caixa3 <- 100.00
+precoPromocional <- 5
+Escreval ("----------------------------")
+EscrevaL ("      Caixa surpresa:       ")
+Escreval ("Caixa 1: ",caixa1)
+Escreval ("Caixa 2: ",caixa2)
+Escreval ("Caixa 3: ",caixa3)
+Escreval ("Escolha a caixa")
+Leia (opcao)
+Se (opcao = 1) entao
+   caixa1 <- caixa1 - (caixa1 * precoPromocional /100)
+   Escreval ("Caixa 1 custa: R$ ",caixa1:0:2)
+   SeNao
+        Se (opcao = 2) entao
+        caixa2 <- caixa2 - (caixa2 * precoPromocional /100)
+        Escreval ("Caixa um custa: R$ ",caixa2:0:2)
+        SeNao
+             Se (opcao = 3) entao
+             caixa3 <- caixa3 - (caixa3 * precoPromocional /100)
+             Escreval ("Caixa um custa:R$ ",caixa3:0:2)
+             SeNao
+             Escreval ("Opção invalida, escolha entre 1, 2 ou 3")
+             FimSe
+        FimSe
+FimSe
+Escreval ("Sua compra foi a ", opcao)
+Escreval ("Obrigada pela compra")
+Fimalgoritmo
