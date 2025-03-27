@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : soma de aumento de salário(função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 21/03/2025
+Var
+// Seção de Declarações das variáveis 
+salario, novoSalario, aumento : real
+nome : caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+Escreval ("Qual o nome do funcionário? ")
+leia (nome)
+EscrevaL ("Digite o salário do funcionério: ")
+Leia (salario)
+Escreval ("Digite o valor em % que será o aumento: ")
+Leia (aumento)
+novoSalario <- salario + (salario * aumento /100)
+Escreval ("O novo salario de ",nome, " será de ",novoSalario)
+Fimalgoritmo
