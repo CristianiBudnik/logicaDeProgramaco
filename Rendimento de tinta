@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : soma o rendimento da tinta (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 21/03/2025
+Var
+// Seção de Declarações das variáveis 
+altura, comprimento, metrosQuadrado : real
+quantidadeTinta, rendimentoTinta : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval ("PARA CALCULAR A QUANTIDADE DE TINTA VAMOS PRECISAR DE:")
+EscrevaL ("Digite a altura da parede? ")
+Leia (altura)
+Escreval ("Digite o comprimento da parede? ")
+Leia (comprimento)
+metrosQuadrado <- altura * comprimento
+Escreval ("Digite o rendimento da tinta: ")
+Leia (rendimentoTinta)
+quantidadeTinta <- metrosQuadrado * rendimentoTinta
+Escreval ("Para pintar sua parede você vai precisar de ",quantidadeTinta," litros de tinta")
+Fimalgoritmo
