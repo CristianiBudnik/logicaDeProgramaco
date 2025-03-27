@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Soma de dois numeros (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 20/03/2025
+Var
+// Seção de Declarações das variáveis 
+num1, num2, soma: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Digite um número inteiro: ")
+Leia (num1)
+Escreva ("Digite outro número inteiro: ")
+Leia (num2)
+soma <- num1 + num2
+Escreva ("A soma entre o número ",num1," e o ", num2," é igual à ", soma)
+Fimalgoritmo
