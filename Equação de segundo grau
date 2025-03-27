@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : soma de equacao de 2° grau (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 21/03/2025
+Var
+// Seção de Declarações das variáveis 
+A, B , C, delta : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval ("PARA CALCULAR A EQUAÇÃO")
+EscrevaL ("Digite o valor de A: ")
+Leia (A)
+Escreval ("Digite o valor de B: ")
+Leia (B)
+Escreval ("Digite o valor de C: ")
+Leia (C)
+delta <- B * B - 4 * A * C
+Escreval ("O de Delta é: ",delta)
+Fimalgoritmo
