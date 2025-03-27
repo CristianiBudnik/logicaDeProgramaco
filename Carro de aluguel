@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : soma km por dia (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 21/03/2025
+Var
+// Seção de Declarações das variáveis 
+km, dia : real
+kmPercorrido, diaAlugado, total : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+dia <- 90.00
+km <- 0.20
+Escreval ("Qual a quantidade de km percorrido? ")
+leia (kmPercorrido)
+EscrevaL ("Digte a quantidade de dias alugado: ")
+Leia (diaAlugado)
+total <- (kmPercorrido * km) + (diaAlugado * dia)
+Escreval ("O total foi de ", diaAlugado," dias e ", kmPercorrido:4:2," km percorridos")
+Escreval ("Valor final de: R$", total)
+Fimalgoritmo
