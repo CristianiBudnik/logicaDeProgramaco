@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Soma de media (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 20/03/2025
+Var
+// Seção de Declarações das variáveis 
+nota1, nota2, media: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Digite a primeira nota: ")
+Leia (nota1)
+Escreva ("Digite a segunda nota: ")
+Leia (nota2)
+media <- (nota1 + nota2)/2
+Escreva ("A sua média é igual à: ",media)
+Fimalgoritmo
