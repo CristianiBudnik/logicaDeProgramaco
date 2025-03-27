@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Confere se os numeros formam um triângulo (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 20/03/2025
+Var
+// Seção de Declarações das variáveis 
+lado1, lado2, lado3 : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Digite o primeiro numero inteiro: ")
+Leia (lado1)
+Escreva ("Digite o segundo numero inteiro: ")
+Leia (lado2)
+Escreva ("Digite o terceiro numero inteiro: ")
+Leia (lado3)
+Se (lado1 = lado2) ou (lado2 = lado3)entao
+   Escreva ("Então forma um triângulo")
+   SeNao
+        Se (lado1 <> lado2) ou (lado2 <> lado3) entao
+        escreva ("Então não forma um triângulo")
+        FimSe
+FimSe
+Fimalgoritmo
