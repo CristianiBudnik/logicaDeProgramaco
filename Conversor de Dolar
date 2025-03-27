@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Conversor de real para dolar (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/03/2025
+Var
+// Seção de Declarações das variáveis 
+valorReal, dolar, conversor : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval ("Qual o valor em real que você precisa converter? R$ ")
+Leia (valorReal)
+dolar <- 3.45
+conversor <-  valorReal * dolar
+Escreval ("Você terá $", conversor, " em dolar.")
+Fimalgoritmo
