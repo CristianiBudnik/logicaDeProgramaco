@@ -1,0 +1,12 @@
+Algoritmo "semnome"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Confere se os numeros formam um triângulo (função)
+// Autor(a)    : Cristiani Budnik
+// Data atual  : 20/03/2025
+Var
+// Seção de Declarações das variáveis 
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Olá Mundo!")
+Fimalgoritmo
